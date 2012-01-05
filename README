@@ -1,10 +1,16 @@
-# Newsman app is a rails application that is used to create newspaper publications
+# Newsman app is a rails application for newspaper publications
 # Our goal is to create Web, Print, and Mobile version of the newspaper at once.
 
 # Once you are done with the writing on the web, you are done with the web version of the publication.
-# We keep two sets of the text, one is for the web, the longer version. The other one is for the print version, which might be shout to fit the print area.
+# We keep two sets of the text, one is for the web, the longer version. The other one is for the print version, which might be shorter or longer to fit the print area.
 
 # Tree
+We create tree to represent the hirachiy of the content
+Publication
+	Issue
+		section
+			Article
+			
 # Publication: Name, Size, Frequency, sections, , 
 # Issue: date, type
 # Sections: title, template, staff
