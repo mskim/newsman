@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Section name:</b>
+  <%= @section.section_name %>
+</p>
+
+<p>
+  <b>Columns:</b>
+  <%= @section.columns %>
+</p>
+
+<p>
+  <b>Gutter:</b>
+  <%= @section.gutter %>
+</p>
+
+<p>
+  <b>Grid height:</b>
+  <%= @section.grid_height %>
+</p>
+
+<p>
+  <b>Direction:</b>
+  <%= @section.direction %>
+</p>
+
+<p>
+  <b>Design template:</b>
+  <%= @section.design_template %>
+</p>
+
+<p>
+  <b>Issue:</b>
+  <%= @section.issue_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_section_path(@section) %> |
+<%= link_to 'Back', sections_path %>

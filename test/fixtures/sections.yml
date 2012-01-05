@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  section_name: MyString
+  columns: 1
+  gutter: 1
+  grid_height: 1
+  direction: false
+  design_template: MyString
+  issue_id: 1
+
+two:
+  section_name: MyString
+  columns: 1
+  gutter: 1
+  grid_height: 1
+  direction: false
+  design_template: MyString
+  issue_id: 1

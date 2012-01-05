@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  author: MyString
+  summary: MyText
+  text: MyText
+  text_for_print: MyText
+  columns: 1
+  x_position: 1
+  y_position: 1
+  height_in_grid: 1
+  status: MyString
+  kind: MyString
+  section_id: 1
+
+two:
+  title: MyString
+  author: MyString
+  summary: MyText
+  text: MyText
+  text_for_print: MyText
+  columns: 1
+  x_position: 1
+  y_position: 1
+  height_in_grid: 1
+  status: MyString
+  kind: MyString
+  section_id: 1

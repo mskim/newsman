@@ -1,0 +1,35 @@
+<h1>Listing sections</h1>
+
+<table>
+  <tr>
+    <th>Section name</th>
+    <th>Columns</th>
+    <th>Gutter</th>
+    <th>Grid height</th>
+    <th>Direction</th>
+    <th>Design template</th>
+    <th>Issue</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sections.each do |section| %>
+  <tr>
+    <td><%= section.section_name %></td>
+    <td><%= section.columns %></td>
+    <td><%= section.gutter %></td>
+    <td><%= section.grid_height %></td>
+    <td><%= section.direction %></td>
+    <td><%= section.design_template %></td>
+    <td><%= section.issue_id %></td>
+    <td><%= link_to 'Show', section %></td>
+    <td><%= link_to 'Edit', edit_section_path(section) %></td>
+    <td><%= link_to 'Destroy', section, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Section', new_section_path %>

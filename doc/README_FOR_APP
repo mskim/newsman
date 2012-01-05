@@ -1,0 +1,16 @@
+Use this README file to introduce your application and point to useful places in the API for learning more.
+Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+
+# Newsman app is a rails application that is used to create newspaper publications
+# Our goal is to create Web, Print, and Mobile version of the newspaper at once.
+
+# Once you are done with the writing on the web, you are done with the web version of the publication.
+# We keep two sets of the text, one is for the web, the longer version. The other one is for the print version, which might be shout to fit the print area.
+
+# Tree
+# Publication: Name, Size, Frequency, sections, , 
+# Issue: date, type
+# Sections: title, template, staff
+# Article: title, author, status, content, tag, columns, gutter_size, column_width, text, text_for print
+# Ad: type, advertiser, duration, sales_agent
+# Staff: name, role, email, phone

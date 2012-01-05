@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @publication.name %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%= @publication.size %>
+</p>
+
+<p>
+  <b>Frequency:</b>
+  <%= @publication.frequency %>
+</p>
+
+<p>
+  <b>Kind:</b>
+  <%= @publication.kind %>
+</p>
+
+
+<%= link_to 'Edit', edit_publication_path(@publication) %> |
+<%= link_to 'Back', publications_path %>

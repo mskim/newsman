@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Newsman</title>
+  <!-- <%= stylesheet_link_tag    "application" %> -->
+
+<style type="text/css"> 
+h1{
+    font-family: "Zapfino";
+
+}
+.newspaper
+{
+
+/*-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+*/
+-moz-column-gap:20px; /* Firefox */
+-webkit-column-gap:20px; /* Safari and Chrome */
+column-gap:20px;
+
+-moz-column-rule:4px outset #ff00ff; /* Firefox */
+-webkit-column-rule:4px outset #ff00ff; /* Safari and Chrome */
+column-rule:4px ;
+-moz-column-rule-color:#ffffff; /* Firefox */
+-webkit-column-rule-color:black; /* Safari and Chrome */
+text-align:justify;
+-webkit-column-rule-width:1px;
+}
+
+</style>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
